@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: cloud-server
+
+  profiles:
+    active: native
+
+server.port: 8889
+
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
